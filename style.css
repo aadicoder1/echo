@@ -1,0 +1,159 @@
+body {
+    background-image: url('https://static.vecteezy.com/system/resources/previews/005/930/371/large_2x/nature-landscape-background-beautiful-view-of-the-morning-fog-filling-the-valleys-of-smooth-hills-mountain-range-layer-dark-blue-forest-sunrise-and-sunset-in-mountains-with-purple-sky-dramatic-free-photo.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: 'Playwrite HU', cursive;
+    padding-bottom: 20vh;
+    }
+
+.outerbox{
+    position: fixed;
+    left: 50px;
+    height: 80vh;
+    border: 5px solid rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 50px auto;
+    width: 90%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow:0px 0px 15px rgb(0, 0, 0) ;
+}
+
+.leftnav{
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 80px;
+    top: 70px;
+    left:70px;
+    color: #fff;
+    padding: 10px 5px;
+    padding-top: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.leftnav a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+.leftnav a:hover {
+    border-radius: 10px;
+    background-color:rgba(255, 255, 255, 0.3);;
+}
+
+.leftnav2{
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 80px;
+    top: 260px;
+    left:70px;
+    color: #fff;
+    padding: 10px 5px;
+    padding-top: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.leftnav2 a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+.leftnav2 a:hover {
+    border-radius: 10px;
+    background-color:rgba(255, 255, 255, 0.3);;
+}
+
+.rightnav{
+    position: fixed;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 300px;
+    top: 70px;
+    right: 70px;
+    color: #fff;
+    padding: 10px 5px;
+    padding-top: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.rightnav a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+.rightnav a:hover {
+    border-radius: 10px;
+    background-color:rgba(255, 255, 255, 0.3);;
+}
+
+.rightnavart{
+    height: 450px;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 300px;
+    top: 10px;
+    right: 70px;
+    position: fixed;
+    color: #fff;
+    padding: 10px 5px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.rightnavart a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+.rightnavart a:hover {
+    border-radius: 10px;
+    background-color:rgba(255, 255, 255, 0.3);;
+}
+
+.image-scroll-wrapper {
+    width: 80%;
+    overflow-y:scroll; /* Enable horizontal scrolling */
+    white-space:nowrap; /* Keep images on a single line */
+    padding: 2px;
+  }
+
+  .image-scroll-wrapper img {
+    max-width: 90%;
+    height: auto;
+    margin-right: 1px; /* Space between images */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: transform 0.3s ease; /* Smooth transition on hover */
+  }
+
+  .image-scroll-wrapper img:hover {
+    transform: scale(1.05); 
+  }
+
+  .midnav{
+    position: fixed;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 960px;
+    top: 70px;
+    left:170px;
+    color: #fff;
+    padding: 10px 5px;
+    padding-top: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.midnav a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+.midnav a:hover {
+    border-radius: 10px;
+    background-color:rgba(255, 255, 255, 0.3);;
+}

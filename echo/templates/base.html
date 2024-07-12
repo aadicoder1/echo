@@ -1,0 +1,44 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Echo</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="biggestdiv">
+        <div id="header">
+            <div class="languages">
+                <h1 class="heading01">Hindi</h1>
+                <h1 class="heading01">English</h1>
+                <h1 class="heading01">Punjabi</h1>
+                <h1 class="heading01">South Indian</h1>
+                <h1 class="heading01">Marathi</h1>
+            </div>
+            <div class="user-options">
+                <h1 class="sign">Sign In</h1>
+                <h1 class="profile">My Profile</h1>
+            </div>
+        </div>
+        <div id="bdiv">
+            <div class="navbar">
+                <h1 id="heading02">Home</h1>
+                <h1 id="heading02">Playlist</h1>
+                <h1 id="heading02">Favourites</h1>
+            </div>
+            <div class="main-content"></div>
+            <div class="right_slider">
+                <form>
+                    <label for="text"></label>
+                    <input type="text" name="search songs" required>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

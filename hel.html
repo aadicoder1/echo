@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+  }
+
+  .image-scroll-wrapper {
+    white-space: nowrap; /* Keep images on a single line */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    padding: 20px;
+  }
+
+  .image-scroll-wrapper img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 10px; /* Space between images */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: transform 0.3s ease; /* Smooth transition on hover */
+  }
+
+  .image-scroll-wrapper img:hover {
+    transform: scale(1.1); /* Example: Zoom effect on hover */
+  }
+</style>
+</head>
+<body>
+
+<div class="image-scroll-wrapper">
+  <img src="https://via.placeholder.com/400x300" alt="Image 1">
+  <img src="https://via.placeholder.com/400x300" alt="Image 2">
+  <img src="https://via.placeholder.com/400x300" alt="Image 3">
+  <img src="https://via.placeholder.com/400x300" alt="Image 4">
+  <img src="https://via.placeholder.com/400x300" alt="Image 5">
+  <!-- Add more images as needed -->
+</div>
+
+</body>
+</html>
